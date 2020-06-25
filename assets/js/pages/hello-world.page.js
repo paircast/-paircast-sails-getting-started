@@ -8,7 +8,7 @@ parasails.registerPage('hello-world', {
 
   watch: {
     // whenever question changes, this function will run
-    name: function (newName) {
+    name: function (newName, oldName) {
       console.log('test')
       Cloud.updateProfile({ fullName: newName })
     }
