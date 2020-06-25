@@ -4,6 +4,7 @@ parasails.registerPage('hello-world', {
   //  ╩╝╚╝╩ ╩ ╩╩ ╩╩═╝  ╚═╝ ╩ ╩ ╩ ╩ ╚═╝
   data: {
     //…
+    beta: false;
   },
 
   watch: {
