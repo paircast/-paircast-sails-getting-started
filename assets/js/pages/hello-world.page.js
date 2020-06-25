@@ -6,8 +6,8 @@ parasails.registerPage('hello-world', {
     //…
   },
   watch: {
-    beta: function () {
-      console.log('updated')
+    beta: function (val) {
+      console.log('updated', val)
     }
   },
 
