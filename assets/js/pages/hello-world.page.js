@@ -8,9 +8,9 @@ parasails.registerPage('hello-world', {
 
   watch: {
     // whenever question changes, this function will run
-    name: function (newName, oldName) {
+    name: async (newName, oldName) => {
       console.log('test')
-      Cloud.updateProfile({ fullName: newName })
+      await Cloud.updateProfile({ fullName: newName })
     }
   },
   //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
