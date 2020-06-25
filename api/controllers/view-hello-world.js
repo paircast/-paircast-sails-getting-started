@@ -20,7 +20,6 @@ module.exports = {
 
     // Respond with view.
     return {
-      name: 'Ian Jennings'
     };
 
   }
