@@ -9,7 +9,6 @@ parasails.registerPage('hello-world', {
   watch: {
     // whenever question changes, this function will run
     name: function (newQuestion, oldQuestion) {
-      alert('updated')
     }
   },
   //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
