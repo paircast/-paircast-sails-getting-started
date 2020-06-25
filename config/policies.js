@@ -22,6 +22,6 @@ module.exports.policies = {
   'legal/view-privacy': true,
   'deliver-contact-form-message': true,
 
-  'hello-world': true
+  'view-hello-world': true
 
 };
