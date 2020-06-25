@@ -22,7 +22,7 @@ parasails.registerPage('hello-world', {
   },
   mounted: async function () {
 
-    console.log(this.beta)
+    console.log(this.name)
 
     //…
   },
