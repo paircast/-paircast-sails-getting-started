@@ -8,9 +8,8 @@ parasails.registerPage('hello-world', {
 
   watch: {
     // whenever question changes, this function will run
-    question: function (newQuestion, oldQuestion) {
-      this.answer = 'Waiting for you to stop typing...'
-      this.debouncedGetAnswer()
+    beta: function (newQuestion, oldQuestion) {
+      alert('updated')
     }
   },
   //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
