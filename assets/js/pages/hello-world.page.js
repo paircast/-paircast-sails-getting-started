@@ -10,7 +10,7 @@ parasails.registerPage('hello-world', {
     // whenever question changes, this function will run
     name: async (newName, oldName) => {
       console.log('test')
-      await Cloud.updateProfilewith({ fullName: newName })
+      await Cloud.updateProfile.with({ fullName: newName })
     }
   },
   //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
