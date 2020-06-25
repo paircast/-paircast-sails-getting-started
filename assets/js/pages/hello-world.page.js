@@ -23,6 +23,7 @@ parasails.registerPage('hello-world', {
   mounted: async function () {
 
     console.log(this.name)
+    this.name = SAILS_LOCALS.me.fullName;
 
   },
 
