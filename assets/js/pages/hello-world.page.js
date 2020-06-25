@@ -5,6 +5,11 @@ parasails.registerPage('hello-world', {
   data: {
     //…
   },
+  watch: {
+    beta: function () {
+      console.log('updated')
+    }
+  },
 
   //  ╦  ╦╔═╗╔═╗╔═╗╦ ╦╔═╗╦  ╔═╗
   //  ║  ║╠╣ ║╣ ║  ╚╦╝║  ║  ║╣
